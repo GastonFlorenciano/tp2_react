@@ -1,9 +1,5 @@
 const usersValidate = ["gaston", "facundo", "mateo"];
 
-export const rootHandler = (_req, res) => {
-  res.json({ probando: "hola" });
-};
-
 export const validateUser = (req, res) => {
   const name = req.params.name;
 
